@@ -1,0 +1,13 @@
+HTTrack3.49-2 launched on Sun, 04 Aug 2019 16:43:50 at https://bot.emirkabal.com/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(httrack -@i4 -O /storage/emulated/0/HTTrack/Websites/deneme -A25000k%Px%q0u1s2%s%u%fDaK0H0N0p3 https://bot.emirkabal.com/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2017], %s -->" -%l LANGUAGE_ISO,* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:43:51	Warning: 	File not parsed, looks like binary: https://bot.emirkabal.com/robots.txt
+16:45:26	Warning: 	Link https://bot.emirkabal.com/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 36 seconds : 86 links scanned, 85 files written (3475074 bytes overall) [1501371 bytes received at 15639 bytes/sec], 2920744 bytes transferred using HTTP compression in 64 files, ratio 30%, 5.5 requests per connection
+(No errors, 2 warnings, 0 messages)

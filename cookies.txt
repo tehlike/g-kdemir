@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.bootswatch.com	TRUE	/	FALSE	1999999999	__cfduid	d8b509cce62e130fb7298793012cdaa5b1564926310
+.datatables.net	TRUE	/	FALSE	1999999999	__cfduid	d882a647b4919dcc966458ba750cb1c0c1564926314
+.emirkabal.com	TRUE	/	FALSE	1999999999	__cfduid	d2d86d33ae150573ca48bf1866c4dc1381564926320
+

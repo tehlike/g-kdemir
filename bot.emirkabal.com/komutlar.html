@@ -1,0 +1,2931 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+
+<!-- Mirrored from bot.emirkabal.com/komutlar by HTTrack Website Copier/3.x [XR&CO'2017], Sun, 04 Aug 2019 13:45:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Komutlar | Kabal's Bot</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="author" content="Emir Kabal">
+<meta content="https://emirkabal.com/pub/assets/images/profile.png" property="og:image">
+<link rel="icon" type="image/x-icon" href="../external.html?link=https://emirkabal.com/pub/assets/images/favicon.ico">
+<meta name="description" content="Kabal's Discord botunun hakkında bilgiler alabileceğiniz, komutlarını görebileceğiniz resmi internet sitesi. Sitemizden bot ile ilgili her türlü bilgiye ulaşabilir, tamamiyle resmi Kabal's botun sitesini inceleyebilirsiniz!">
+<meta name="keywords" content="Kabal,Kabals,discord,bot,Kabalbot">
+<meta property="og:site_name" content="Kabal's Bot">
+<meta name="theme-color" content="#3892cf">
+<link rel="canonical" href="index.html">
+
+<link href="altyapi/css/font-awesome.min.css" rel="stylesheet">
+<link href="altyapi/css/bootstrap.min.css" rel="stylesheet">
+<link href="altyapi/css/settings.css" rel="stylesheet">
+<link href="altyapi/css/layers.css" rel="stylesheet">
+<link href="altyapi/css/navigation.css" rel="stylesheet">
+<link href="altyapi/css/owl.carousel.min.css" rel="stylesheet">
+<link href="altyapi/css/style.css" rel="stylesheet">
+<link href="altyapi/css/responsive.css" rel="stylesheet">
+<!-- bildirim -->
+<script charset="UTF-8" src="../cdn.sendpulse.com/js/push/27f578ccda984d671390d47e12a598f0_1.js" async></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="../external.html?link=https://www.googletagmanager.com/gtag/js?id=UA-144173986-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144173986-2');
+</script>
+
+<!-- Google ADS -->
+<script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4879579032863674",
+        enable_page_level_ads: true,
+        overlays: { bottom: true }
+    });
+</script>
+
+</head>
+
+<body>
+    <div class="modal" id="a-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Bilgilendirme!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Kabal's Bot ücretsiz destek veren bir Discord botudur, bu sebepten masraflarımızı azda olsa
+                    karşılaması için sitemizde
+                    reklam kullanıyoruz. Bize destek olmak istiyorsanız lütfen reklam engelleme yazılımını kapatın.
+                    Anlayışınız için
+                    teşekkür ederiz.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Tamam</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header class="main_menu_area">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="altyapi/img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
+                <li class="nav-item"><a class="nav-link" href="panel.html">Yönetim Paneli</a></li>
+                <li class="nav-item"><a class="nav-link" href="komutlar.html">Komutlar</a></li>
+                <li class="nav-item"><a class="nav-link" href="../external.html?link=https://api.emirkabal.com/">API</a></li>
+                <li class="nav-item"><a class="nav-link" href="../external.html?link=https://blog.emirkabal.com/">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="irtibat.html">İrtİbat</a></li>
+                <li class="nav-item"><a class="nav-link" href="../external.html?link=https://goo.gl/qP74WK">Ekle</a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="https://status.emirkabal.com">Servisler</a></li> -->
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <section class="banner_area">
+        <div class="container">
+            <div class="banner_inner_text">
+                <h2>Komutlar</h2>
+                <br>
+                <input type="text" id="aramaKutusu" onkeyup="aramaCubugu()" placeholder="Komut ismi ara..." title="Komut ismini girin...">
+                <ul class="tabs">
+                    <li data-tab="unclickable">Kategoriler: </li>
+                    
+                    
+                        
+                        <li class="tab-link current" data-tab="tab-1">🛠 Genel</li>
+                    
+                        
+                        <li class="tab-link " data-tab="tab-2">😄 Eğlence</li>
+                    
+                        
+                        <li class="tab-link " data-tab="tab-3">🔨 Moderasyon</li>
+                    
+                        
+                        <li class="tab-link " data-tab="tab-4">⚙ Ayarlar</li>
+                    
+                        
+                        <li class="tab-link " data-tab="tab-5">🔊 Müzik</li>
+                    
+                        
+                        <li class="tab-link " data-tab="tab-6">🐶 Hayvan</li>
+                    
+                    <li data-tab="unclickable">Prefix / Önek: - </li>
+                </ul>
+                <br>
+                <!-- Reklam 1 Yatay -->
+<script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-4879579032863674"
+     data-ad-slot="3219964364"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" style="padding: 30px 30px;">
+        <div class="row d-flex align-items-center justify-content-center">
+        
+        
+            
+            <div id="tab-1" class="tab-content current" style="overflow-x: auto;">
+                <table id="🛠 Genel">
+                    <tr class="header" style="overflow-x:auto;">
+                        <th style="width:15%;">İsim</th>
+                        <th style="width:60%;">Açıklama</th>
+                        <th style="width:25%;">Kullanım</th>
+                    </tr>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                aktivite
+                            </td>
+                            <td>
+                                Sunucuda en çok oynanan veya dinlenen şarkıları gösterir.
+                            </td>
+                            <td>
+                                aktivite  oyun/şarkı
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                altın
+                            </td>
+                            <td>
+                                Belirtilen kurla alakalı güncel altın bilgilerini gösterir.
+                            </td>
+                            <td>
+                                altın  ONS
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                alıntıla
+                            </td>
+                            <td>
+                                Belirtilen ID&#39;li mesajın bilgilerini alıntılar.
+                            </td>
+                            <td>
+                                alıntıla  123456789123456789
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                apex
+                            </td>
+                            <td>
+                                Belirtilen kullanıcının Apex Legends istatistiklerini gösterir.
+                            </td>
+                            <td>
+                                apex  emirkabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                atatürk
+                            </td>
+                            <td>
+                                Rastgele Atatürk fotoğrafı gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                ayarlar
+                            </td>
+                            <td>
+                                Botun bulunduğunuz sunucudaki ayarlarını gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                bağlantılar
+                            </td>
+                            <td>
+                                Botun tüm sosyal ağlardaki bağlantılarını gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                botbilgi
+                            </td>
+                            <td>
+                                Botun istatistiklerini canlı olarak görmenizi sağlar.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                davetler
+                            </td>
+                            <td>
+                                Sunucuda bulunan davetleri listeler.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                discrim
+                            </td>
+                            <td>
+                                Botta belirtilen taga sahip kişileri arar.
+                            </td>
+                            <td>
+                                discrim  3345
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                döviz
+                            </td>
+                            <td>
+                                Belirtilen kurla alakalı güncel döviz bilgilerini gösterir.
+                            </td>
+                            <td>
+                                döviz  USD
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                fortnite
+                            </td>
+                            <td>
+                                Fortnite adlı oyundaki oyuncu istatistiklerini gösterir.
+                            </td>
+                            <td>
+                                fortnite  pc Tresmos
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                günlükmüzik
+                            </td>
+                            <td>
+                                Günlük olarak kurcunun zevkine göre belirlenen müziği gösterir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                havadurumu
+                            </td>
+                            <td>
+                                Belirtilen şehrin havadurumunu gösterir.
+                            </td>
+                            <td>
+                                havadurumu  Ankara
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                işlem
+                            </td>
+                            <td>
+                                Bot sizin için hesap makinesi olarak kullanılabilir.
+                            </td>
+                            <td>
+                                işlem  1 * 2
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                jumbo
+                            </td>
+                            <td>
+                                Belirtilen emojiyi resim haline dönüştürür.
+                            </td>
+                            <td>
+                                jumbo  :emoji:
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                kısalt
+                            </td>
+                            <td>
+                                Belirtilen bağlantıyı kısaltır.
+                            </td>
+                            <td>
+                                kısalt  emirkabal.com
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                namazvakti
+                            </td>
+                            <td>
+                                Belirtilen şehrin namaz vakitlerini gösterir.
+                            </td>
+                            <td>
+                                namazvakti  İstanbul
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                nsfw
+                            </td>
+                            <td>
+                                Botta bulunan uygunsuz içerikli komutları listeler.
+                            </td>
+                            <td>
+                                nsfw  pgif
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                oyun
+                            </td>
+                            <td>
+                                Belirtilen oyunun Steam adlı platformdaki bilgilerini gösterir.
+                            </td>
+                            <td>
+                                oyun  Portal 2
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                panel
+                            </td>
+                            <td>
+                                Botun yönetim paneli linkini gösterir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                pf
+                            </td>
+                            <td>
+                                Belirtilen kullanıcının profil fotoğrafını gösterir.
+                            </td>
+                            <td>
+                                pf  @Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                profil
+                            </td>
+                            <td>
+                                Belirtilen kullanıcının bütün discord verilerilini gösterir.
+                            </td>
+                            <td>
+                                profil  @Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                pubg
+                            </td>
+                            <td>
+                                Belirtilen kullanıcının PLAYERUNKNOWN&#39;S BATTLEGROUNDS istatistiklerini gösterir.
+                            </td>
+                            <td>
+                                pubg  solo-fpp emirkabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                r6s
+                            </td>
+                            <td>
+                                Belirtilen kullanıcının Rainbow Six Siege istatistiklerini gösterir.
+                            </td>
+                            <td>
+                                r6s  pc emirkabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                shardbilgi
+                            </td>
+                            <td>
+                                Botun shard bilgilerini gösterir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                snipe
+                            </td>
+                            <td>
+                                Bulunduğunuz kanaldaki son silinen mesajı gösterir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                sor
+                            </td>
+                            <td>
+                                Yapay zekaya soru sormanızı sağlar.
+                            </td>
+                            <td>
+                                sor  Nasılsın?
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                spoiler
+                            </td>
+                            <td>
+                                Belirtilen yazıyı bota spoiler içinde yazdırırsınız.
+                            </td>
+                            <td>
+                                spoiler  Merhaba bu yazıyı spoiler içine aldım çok havalı!
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                spotify
+                            </td>
+                            <td>
+                                Belirtilen kullanıcının Spotify üzerinde dinlediği şarkının bilgilerini gösterir.
+                            </td>
+                            <td>
+                                spotify  @Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                sunucubilgi
+                            </td>
+                            <td>
+                                Bulunduğunuz sunucunun istatistiklerini gösterir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                tarih
+                            </td>
+                            <td>
+                                Türkiye saatini güncel olarak gösterir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                vikipedi
+                            </td>
+                            <td>
+                                Belirttiğiniz şeyi Vikipedi de arar.
+                            </td>
+                            <td>
+                                vikipedi  Zaman Yolculuğu
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                yasaklananlar
+                            </td>
+                            <td>
+                                Sunucuda yasaklanmış komutları listeler.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                yazdır
+                            </td>
+                            <td>
+                                Belirtilen yazıyı bota yazdırırsınız.
+                            </td>
+                            <td>
+                                yazdır  Merhaba ben bir botum!
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                youtube
+                            </td>
+                            <td>
+                                Belirttiğiniz şeyi YouTube da arar ve çıkan sonucu size gösterir.
+                            </td>
+                            <td>
+                                youtube  Müslüm Gürses - Sigara
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                çevir
+                            </td>
+                            <td>
+                                Belirtilen yazıyı belirtilen dile göre çevirir.
+                            </td>
+                            <td>
+                                çevir  en Merhaba dünya!
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                öneri
+                            </td>
+                            <td>
+                                Belirtilen öneriyi botun sahibine gönderir.
+                            </td>
+                            <td>
+                                öneri  Şapka komutu getir!
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                özelkomutlar
+                            </td>
+                            <td>
+                                Sunucuda bulununan özel komutları listeler
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                şarkısözü
+                            </td>
+                            <td>
+                                Belirtilen şarkısözünü internette arar ve bulduğu sonucu size gönderir.
+                            </td>
+                            <td>
+                                şarkısözü  Legends never die
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                şifreoluştur
+                            </td>
+                            <td>
+                                Sizin için rastgele şifre oluşturur.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                </table>
+            </div>
+        
+            
+            <div id="tab-2" class="tab-content " style="overflow-x: auto;">
+                <table id="😄 Eğlence">
+                    <tr class="header" style="overflow-x:auto;">
+                        <th style="width:15%;">İsim</th>
+                        <th style="width:60%;">Açıklama</th>
+                        <th style="width:25%;">Kullanım</th>
+                    </tr>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                ascii
+                            </td>
+                            <td>
+                                Belirtilen yazıyı ASCII formatına dönüştürür.
+                            </td>
+                            <td>
+                                ascii  Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                aze
+                            </td>
+                            <td>
+                                Sizin veya belirtiğiniz kullanıcıya azerbeycan bayrağı efekti ekler.
+                            </td>
+                            <td>
+                                aze  @Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                aşkölçer
+                            </td>
+                            <td>
+                                Etiketlediğiniz kullanıcıyla aranızdaki aşk seviyesini ölçersiniz.
+                            </td>
+                            <td>
+                                aşkölçer  @Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                caps
+                            </td>
+                            <td>
+                                Yüklediğiniz resime belirtilen yazıları ekler.
+                            </td>
+                            <td>
+                                caps  üstyazı/altyazı (aynı zamanda resim yüklemelisiniz.)
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                devamedecek
+                            </td>
+                            <td>
+                                Sizin veya belirtiğiniz kullanıcıya devam edecek efekti ekler.
+                            </td>
+                            <td>
+                                devamedecek  @Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                emojibul
+                            </td>
+                            <td>
+                                Botun olduğu sunuculardaki emojilerden sizin seçtiğiniz emojiyi aratır.
+                            </td>
+                            <td>
+                                emojibul  like
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                emojiyazı
+                            </td>
+                            <td>
+                                Yazdığınız yazıyı emoji haline çevirir.
+                            </td>
+                            <td>
+                                emojiyazı  Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                espri
+                            </td>
+                            <td>
+                                Bot soğuk espri yapar.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                gif
+                            </td>
+                            <td>
+                                Belirtilen yazıyı gif olarak arar ve sonucu size gösterir.
+                            </td>
+                            <td>
+                                gif  Robert Downey Jr
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                hack
+                            </td>
+                            <td>
+                                Belirtilen kişiyi hacklersiniz.
+                            </td>
+                            <td>
+                                hack  @Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                kaçcm
+                            </td>
+                            <td>
+                                Bunun ne olduğunu anlamak için deneyimlemen lazım.
+                            </td>
+                            <td>
+                                kaçcm  @Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                keko
+                            </td>
+                            <td>
+                                Belirtilen mesajı büyük küçük hale getirir.
+                            </td>
+                            <td>
+                                keko  Merhabalar
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                mcsunucu
+                            </td>
+                            <td>
+                                Belirtilen Minecraft sunucusunun istatistiklerini gösterir.
+                            </td>
+                            <td>
+                                mcsunucu  mc.trgamer.net
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                minecraft
+                            </td>
+                            <td>
+                                Belirtilen kullanıcının Minecraft bilgilerini gösterir.
+                            </td>
+                            <td>
+                                minecraft  kafa Emirkabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                rgif
+                            </td>
+                            <td>
+                                Bot rastgele gif gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                sahtemesaj
+                            </td>
+                            <td>
+                                Belirtilen kullanıcıya istediğiniz mesajı yazdırırsınız.
+                            </td>
+                            <td>
+                                sahtemesaj  @Kabal Herkese günaydın!
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                shrug
+                            </td>
+                            <td>
+                                /shrug
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                sigara
+                            </td>
+                            <td>
+                                Sigara yakmanızı sağlar.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                stresçarkı
+                            </td>
+                            <td>
+                                Stres çarkı çevirmenizi sağlar.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                ters
+                            </td>
+                            <td>
+                                Belirtilen mesajı tersine çevirir.
+                            </td>
+                            <td>
+                                ters  Merhabalar
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                tkm
+                            </td>
+                            <td>
+                                Bot ile taş, kağıt, makas oynamanızı sağlar.
+                            </td>
+                            <td>
+                                tkm  makas
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                tr
+                            </td>
+                            <td>
+                                Sizin veya belirtiğiniz kullanıcıya türk bayrağı efekti ekler.
+                            </td>
+                            <td>
+                                tr  @Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                triggered
+                            </td>
+                            <td>
+                                Sizin veya belirtiğiniz kullanıcıya triggered resmi ekler.
+                            </td>
+                            <td>
+                                triggered  @Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                wasted
+                            </td>
+                            <td>
+                                Sizin veya belirtiğiniz kullanıcıya wasted resmi ekler.
+                            </td>
+                            <td>
+                                wasted  @Kabal
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                yazıtura
+                            </td>
+                            <td>
+                                Bot sizin için yazı tura atar.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                </table>
+            </div>
+        
+            
+            <div id="tab-3" class="tab-content " style="overflow-x: auto;">
+                <table id="🔨 Moderasyon">
+                    <tr class="header" style="overflow-x:auto;">
+                        <th style="width:15%;">İsim</th>
+                        <th style="width:60%;">Açıklama</th>
+                        <th style="width:25%;">Kullanım</th>
+                    </tr>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                ban
+                            </td>
+                            <td>
+                                Belirtilen kullanıcıyı sunucudan yasaklar.
+                            </td>
+                            <td>
+                                ban  @Kabal Rekalm yapıyorsun!
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                kick
+                            </td>
+                            <td>
+                                Belirtilen kullanıcıyı sunucudan atar.
+                            </td>
+                            <td>
+                                kick  @Kabal Reklam yapıyorsun!
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                rol
+                            </td>
+                            <td>
+                                Belirtilen kullanıcıya belirtilen rolü verir.
+                            </td>
+                            <td>
+                                rol  @Kabal @Moderator
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                sustur
+                            </td>
+                            <td>
+                                Belirtilen kullanıcıyı sesli olarak susturur.
+                            </td>
+                            <td>
+                                sustur  @Kabal Çok konuşuyorsun
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                temizle
+                            </td>
+                            <td>
+                                Belirtilen sayı kadar mesaj siler.
+                            </td>
+                            <td>
+                                temizle  20
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                yazmaengeli
+                            </td>
+                            <td>
+                                Belirtilen kullanıcıya yazma engeli koyar.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                çekiliş
+                            </td>
+                            <td>
+                                Sunucudaki kullanıcılar için çekiliş yapar eğer rol belirtilirse rolün içersindeki kullanıcılar için bir çekiliş yapar.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                </table>
+            </div>
+        
+            
+            <div id="tab-4" class="tab-content " style="overflow-x: auto;">
+                <table id="⚙ Ayarlar">
+                    <tr class="header" style="overflow-x:auto;">
+                        <th style="width:15%;">İsim</th>
+                        <th style="width:60%;">Açıklama</th>
+                        <th style="width:25%;">Kullanım</th>
+                    </tr>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                kapat
+                            </td>
+                            <td>
+                                Belirtilen ayarı botun ayarlarından kapatır.
+                            </td>
+                            <td>
+                                kapat  otorol
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                kayıtkanalı
+                            </td>
+                            <td>
+                                Mesajı gönderdiğiniz kanalı kayıt kanalı yapar.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                komutyasakla
+                            </td>
+                            <td>
+                                Belirtilen komutu sunucunuzda yasaklar.
+                            </td>
+                            <td>
+                                komutyasakla  kaçcm
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                küfürfiltresi
+                            </td>
+                            <td>
+                                Yazıldığından ihtibaren botun görebildiği kanallarda küfür filtresi uygular ve kullanıcıların küfür içerikli mesajlarını siler.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                otorol
+                            </td>
+                            <td>
+                                Belirtilen rolü yeni gelen kullanıcılara otomatik olarak verir.
+                            </td>
+                            <td>
+                                otorol  @Yeni Kullanıcı
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                reklamfiltresi
+                            </td>
+                            <td>
+                                Yazıldığından ihtibaren botun görebildiği kanallarda reklam filtresi uygular ve kullanıcıların reklam içerikli mesajlarını siler.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                sayaç
+                            </td>
+                            <td>
+                                Belirtilen kanalı sayaç kanalı olarak ayarlar ve sunucunun kaç kişi olmasına şu kadar kişi kaldı gibi mesajlar gönderir.
+                            </td>
+                            <td>
+                                sayaç  100 #sayaç
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                sıfırla
+                            </td>
+                            <td>
+                                Sunucunuzdaki bütün ayarları sıfırlamanızı sağlar bi nevi kapatı tek bir komut ile kullanırsınız.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                vkanal
+                            </td>
+                            <td>
+                                Mesajı gönderdiğiniz kanalı varsayılan kanal yapar ve botun hoşgeldin ve görüşürüz mesajları bu kanala gönderilir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                özelkomut
+                            </td>
+                            <td>
+                                Sunucunuza özel, özel komutlar sistemi ile özel komut oluşturup özel komut silebilirsiniz.
+                            </td>
+                            <td>
+                                özelkomut  ekle/sil komut &#34;Eğer bir komut ekliyorsanız buraya komutun hangi mesajı göndermesi gerektiğini yazın.&#34;
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                özelprefix
+                            </td>
+                            <td>
+                                Belirtilen prefixi botun prefixi olarak değiştirir.
+                            </td>
+                            <td>
+                                özelprefix  !
+                            </td>
+                        </tr>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                </table>
+            </div>
+        
+            
+            <div id="tab-5" class="tab-content " style="overflow-x: auto;">
+                <table id="🔊 Müzik">
+                    <tr class="header" style="overflow-x:auto;">
+                        <th style="width:15%;">İsim</th>
+                        <th style="width:60%;">Açıklama</th>
+                        <th style="width:25%;">Kullanım</th>
+                    </tr>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                atla
+                            </td>
+                            <td>
+                                Sunucunuzda çalan şarkı listesinde şarkıları atlamanızı sağlar; eğer sayı belirtilirse o sayı kadar atlar.
+                            </td>
+                            <td>
+                                atla  2
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                devam
+                            </td>
+                            <td>
+                                Sunucunuzda eğer şarkı çalınmıyorsa ve listede şarkı varsa şarkıyı devam ettirir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                duraklat
+                            </td>
+                            <td>
+                                Sunucunuzda eğer şarkı oynatılıyorsa şarkıyı duraklatılır.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                earrape
+                            </td>
+                            <td>
+                                Sunucunuzda çalan şarkının sesini destansı yaparsınız.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                karıştır
+                            </td>
+                            <td>
+                                Sunucunuzda oynatılan şarkı listesini karıştırır.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                liste
+                            </td>
+                            <td>
+                                Sunucunuzda çalan şarkı listesini size gösterir.
+                            </td>
+                            <td>
+                                liste  2
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                oynat
+                            </td>
+                            <td>
+                                İstedğiniz bir şarkıyı sizin için sunucuda çalmaya başlar.
+                            </td>
+                            <td>
+                                oynat  Legends never die
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                ses
+                            </td>
+                            <td>
+                                Sunucunuzda çalan şarkının sesini ayarlarsınız.
+                            </td>
+                            <td>
+                                ses  10
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                tekrarla
+                            </td>
+                            <td>
+                                Sunucunuzda çalan şarkı sona erdiğinde baştan oynatılır.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                çık
+                            </td>
+                            <td>
+                                Sunucunuzda çalan şarkı listesini sonlandırır ve bot odadan çıkar.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                
+                </table>
+            </div>
+        
+            
+            <div id="tab-6" class="tab-content " style="overflow-x: auto;">
+                <table id="🐶 Hayvan">
+                    <tr class="header" style="overflow-x:auto;">
+                        <th style="width:15%;">İsim</th>
+                        <th style="width:60%;">Açıklama</th>
+                        <th style="width:25%;">Kullanım</th>
+                    </tr>
+                
+                    
+                        <tr>
+                            <td>
+                                baykuş
+                            </td>
+                            <td>
+                                Bot rastgele baykuş fotoğrafları gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                kedi
+                            </td>
+                            <td>
+                                Bot rastgele kedi fotoğrafları gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                kuş
+                            </td>
+                            <td>
+                                Bot rastgele kuş fotoğrafları gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                köpek
+                            </td>
+                            <td>
+                                Bot rastgele köpek fotoğrafları gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                panda
+                            </td>
+                            <td>
+                                Bot rastgele panda fotoğrafları gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                penguen
+                            </td>
+                            <td>
+                                Bot rastgele penguen fotoğrafları gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                tavşan
+                            </td>
+                            <td>
+                                Bot rastgele tavşan fotoğrafları gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                        <tr>
+                            <td>
+                                ördek
+                            </td>
+                            <td>
+                                Bot rastgele ördek fotoğrafları gönderir.
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                </table>
+            </div>
+        
+        </div>
+    </div>
+    <center><!-- Reklam 1 Yatay -->
+<script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-4879579032863674"
+     data-ad-slot="3219964364"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center>
+
+
+
+    <footer class="footr_area">
+    <div class="footer_widget_area">
+        <div class="container">
+            <div class="row footer_widget_inner">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single-defination">
+                            <a href="../external.html?link=https://discordbots.org/bot/462174014048043008">
+                                <img src="../external.html?link=https://discordbots.org/api/widget/462174014048043008.svg" alt="Kabal's" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <aside class="f_widget f_about_widget">
+                            <h4 class="mb-20" style="color:white">Bot Hakkında Videolar</h4>
+                            <p>Kabal's bot hakkında çekilmiş videoların hepsini aşağıdaki oynatma listesinden
+                            bulabilirsiniz.</p>
+                            <a href="../external.html?link=https://www.youtube.com/playlist?list=PL8c8GMCM8fQs1dUSlHwumdmIzMPZNokxJ" class="more_btn">Git</a>
+                        </aside>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <aside class="f_widget f_about_widget">
+                            <h4 class="mb-20" style="color:white">Destek Sunucusu</h4>
+                            <p>Kabal's botun eğlence ve destek sunucusuna katılarak destek alabilirsiniz.</p>
+                            <a href="../external.html?link=https://goo.gl/MsyYzE" class="more_btn">Git</a>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_copyright">
+        <div class="container">
+            <div class="float-sm-left">
+                <h5 style="color:gray">
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> | Tasarım
+                    <a href="../external.html?link=https://colorlib.com/" target="_blank">Colorlib</a>
+                    tarafından yapılıp, <a href="../external.html?link=https://emirkabal.com/">Emir Kabal</a> tarafından düzenlenmiştir. | <a href="../external.html?link=http://www.dmca.com/Protection/Status.aspx?ID=0db1647a-d582-4d6a-914b-1a852d9cb3c6" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="../images.dmca.com/Badges/dmca-badge-w100-5x1-100293.png"  alt="DMCA.com Protection Status" /></a> 
+                </h5>
+                <script src="../images.dmca.com/Badges/DMCABadgeHelper.min.zip"> </script>
+            </div>
+            <div class="float-sm-right">
+                <ul>
+                    <li><a href="../external.html?link=https://twitter.com/emirkabal"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='../external.html?link=https://embed.tawk.to/5b94dd7fafc2c34e96e85a5f/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+
+<script type="text/javascript" src="altyapi/js/f4s5r84.js"></script>
+<script type="text/javascript" src="altyapi/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="altyapi/js/popper.min.js"></script>
+<script type="text/javascript" src="altyapi/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="altyapi/js/jquery.themepunch-tools.min.js"></script>
+<script type="text/javascript" src="altyapi/js/jquery.themepunch-revolution.min.js"></script>
+<script type="text/javascript" src="altyapi/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="altyapi/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="altyapi/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="altyapi/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="altyapi/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="altyapi/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="altyapi/js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="altyapi/js/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="altyapi/js/apear.js"></script>
+<script type="text/javascript" src="altyapi/js/countto.js"></script>
+<script type="text/javascript" src="altyapi/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="altyapi/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="altyapi/js/custom.js"></script>
+<script type="text/javascript" src="altyapi/js/smoothscroll.js"></script>
+<script type="text/javascript" src="altyapi/js/theme.js"></script>
+</body>
+
+
+<!-- Mirrored from bot.emirkabal.com/komutlar by HTTrack Website Copier/3.x [XR&CO'2017], Sun, 04 Aug 2019 13:45:22 GMT -->
+</html>
